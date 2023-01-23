@@ -63,3 +63,22 @@ sui-modal-dimmer{
 .sb-editor-container .ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners{
   word-break: break-all !important;
 }
+figure.image img{
+  width: auto !important;
+}
+figure.image{
+  width: auto ;
+  height: auto;
+}
+figure.image.resize-25 img{
+  width: 25% !important;
+}
+figure.image.resize-50 img{
+  width: 50% !important;
+}
+figure.image.resize-75 img{
+  width: 75% !important;
+}
+figure.image.resize-100 img{
+  width: 100% !important;
+}
